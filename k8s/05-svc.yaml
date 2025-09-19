@@ -18,7 +18,3 @@ spec: # Service specification
   type: ClusterIP # Service type - accessible only within cluster
   # Change to LoadBalancer for external access
 
-  template:
-    spec:
-      containers:
-        - image: karmat314/task-manager:fc1da06e6bfa3fb8505371371ab72ac0a026a8c4
