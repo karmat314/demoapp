@@ -1,8 +1,8 @@
 # Task Manager Application Deployment and Service
 # This file creates the main application deployment and exposes it via a service
 # 📝 IMPORTANT: Replace STUDENT_NUMBER with your actual student number (e.g., 0215539)
-
-# Deployment - Manages the Task Manager application Pods
+# another cmment
+#Deployment - Manages the Task Manager application Pods
 apiVersion: apps/v1 # API version for Deployment resources
 kind: Deployment # Resource type - manages application replicas
 metadata: # Information about this Deployment
